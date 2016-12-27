@@ -1,0 +1,31 @@
+{
+  "name": "test-server",
+  "version": "1.0.0",
+  "description": "Node server in coffee script",
+  "main": "./bin/www",
+  "scripts": {
+    "start": "NODE_ENV=production node ./bin/www",
+    "watch": "PORT=8000 nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "coffee"
+  ],
+  "author": "Rajesh",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.0",
+    "coffee-script": "^1.12.2",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.0",
+    "express-busboy": "^5.0.0",
+    "express-jwt": "^5.1.0",
+    "express-unless": "^0.3.0",
+    "jsonwebtoken": "^7.2.1",
+    "lodash": "^4.17.3",
+    "method-override": "^2.3.7",
+    "mongoose": "^4.7.5",
+    "morgan": "^1.7.0",
+    "puid": "^1.0.5"
+  }
+}
